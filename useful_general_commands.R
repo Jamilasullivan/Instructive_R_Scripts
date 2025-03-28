@@ -8,5 +8,3 @@ read.csv(x) # reading in a csv file
 nrow(x) # gives the number of rows
 rownames_to_column(x, "name") # converts rownames to a column
 left_join(x, y, by = "name") # joins one data set to another using a specific column
-
- 
