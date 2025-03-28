@@ -30,3 +30,9 @@ make_unique_with_underscore <- function(x) {
 test <- c("test_run", "test.run", "testrun", "testrun", "testrun")
 test <- make_unique_with_underscore(test) 
 test[grep("\\_", test)] 
+
+## FUNCTION TO CALCULATE Z-SCORES ##############################################
+
+cal_z_score <- function(x) {
+  (x - mean(x)) / sd(x)
+}
